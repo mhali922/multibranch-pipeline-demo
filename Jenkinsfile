@@ -9,7 +9,7 @@ pipeline {
     options {
         buildDiscarder logRotator( 
                     daysToKeepStr: '12', 
-                    numToKeepStr: '5'
+                    numToKeepStr: '6'
             )
     }
 
